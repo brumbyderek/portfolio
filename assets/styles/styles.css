@@ -347,7 +347,9 @@ h1 {
 #introDetails {
   display: flex;
   flex-direction: row;
-
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 200px;
 }
 
