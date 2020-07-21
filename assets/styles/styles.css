@@ -223,10 +223,15 @@ label {
 }
 
 h2 {
-  font-family: "Fahkwang", sans-serif;
-  font-weight: 200;
+  font-family: "Libre Baskerville", sans-serif;
+  font-weight: 400;
   font-size: 30px;
   line-height: 0;
+}
+
+h2 span {
+  color: #1a27c9;
+  font-weight: bold;
 }
 
 /***** Zoom in case images when hovering *****/
