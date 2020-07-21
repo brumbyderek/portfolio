@@ -29,6 +29,10 @@ html {
   color: #020202;
   scroll-behavior: smooth;
 }
+::selection {
+  background: #fcdf3e;
+  color: #0d0e0e;
+}
 
 b {
   font-weight: 300;
