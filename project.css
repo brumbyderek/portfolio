@@ -1,0 +1,379 @@
+/********** CASE STUDY **********/
+
+/***** Intro section *****/
+
+.tag {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.imageHeader {
+  display: flex;
+  justify-content: center;
+}
+
+#imageHeader {
+  margin-bottom: 200px;
+}
+
+.imageHeader img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.titleText {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#introDetails {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+.introSubText {
+  margin-bottom: 50px;
+  font-size: 30px;
+  line-height: 1.5;
+  width: 90%;
+}
+
+.introBlank {
+  width: 20%;
+}
+
+.introDesc {
+  width: 30%;
+}
+
+.descCatTitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.descCat {
+  margin-bottom: 12%;
+  font-size: 16px;
+}
+
+/***** Case study content *****/
+
+.caption {
+  margin-top: 1%;
+}
+
+#pageSection {
+  margin-bottom: 10%;
+}
+
+.pageSectionTitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+
+  margin-bottom: 2%;
+}
+
+.sectionText {
+  font-size: 30px;
+  width: 80%;
+  line-height: 1.5;
+
+  margin-bottom: 3%;
+}
+
+.sectionTextCenter {
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.sectionTextAll {
+  font-size: 30px;
+  line-height: 1.5;
+
+  margin-top: 20%;
+  margin-bottom: 6%;
+}
+
+.sectionTextAllFull {
+  font-size: 30px;
+  line-height: 1.5;
+
+  margin-bottom: 3%;
+}
+
+.sectionSubText {
+  width: 60%;
+}
+
+.sectionSubTextLong {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionSubTextHalf {
+  width: 70%;
+}
+
+.sectionSubTextHalfNon {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.item1 img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.divide {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionText2 {
+  font-size: 30px;
+  width: 60%;
+  line-height: 1.5;
+
+  margin-right: 10%;
+}
+
+.mobile video {
+  width: 20%;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.center {
+  margin-left: 25%;
+  margin-right: 25%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionText img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.threeCol {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 6%;
+}
+
+.sideBlank {
+  width: 140px;
+}
+
+.description {
+  width: 30%;
+  margin-top: 10%;
+}
+
+.video {
+  width: 70%;
+}
+@media screen and (max-width: 800px) {
+  /* nav */
+  label {
+    display: block;
+    cursor: pointer;
+
+    float: right;
+    margin-bottom: 10%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .menu a {
+    display: block;
+    margin: 5px;
+  }
+
+  .navTitleLand:hover {
+    font-weight: 300;
+  }
+
+  #toggle:checked + .menu {
+    display: flex;
+  }
+
+  /* index.html */
+  #content,
+  #columns,
+  #showcaseWork {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .number {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  #work {
+    margin-bottom: 40%;
+  }
+
+  h2 {
+    line-height: 1;
+    font-size: 24px;
+  }
+
+  .sideBlank {
+    display: none;
+  }
+
+  .description,
+  .video {
+    width: 100%;
+  }
+
+  #header {
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 12%;
+  }
+
+  .center {
+    margin: 0%;
+  }
+
+  .point img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .item {
+    margin-bottom: 40%;
+  }
+
+  #showcaseWork {
+    margin-top: 0px;
+  }
+
+  /* about.html */
+
+  .aboutHeader {
+    font-size: 24px;
+  }
+
+  /* case studies */
+  .intro,
+  #introDetails,
+  #pageSection,
+  .divide,
+  .center {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tag {
+    font-size: 10px;
+  }
+
+  .sideBlank {
+    display: none;
+  }
+
+  .center {
+    margin: 0%;
+  }
+
+  .item1 {
+    margin-bottom: 20%;
+  }
+
+  .sectionSubTextLong {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionSubTextHalfNon,
+  .sectionText,
+  .sectionSubText,
+  .sectionSubTextLong,
+  .sectionSubTextHalf,
+  .sectionSubTextHalf1,
+  .sectionSubTextHalf2,
+  .sectionSubTextHalfNon,
+  .sectionText2,
+  .detail {
+    width: 100%;
+    margin: 0%;
+    max-width: 100%;
+  }
+
+  .sectionSubTextHalf1,
+  .sectionSubTextHalf2 {
+    margin-bottom: 14%;
+  }
+
+  .mobile video {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+
+  .titleText,
+  .sectionText,
+  .sectionText2,
+  .titleText,
+  .introSubText {
+    font-size: 18px;
+  }
+
+  .sectionText {
+    margin-bottom: 20%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row img {
+    padding: 10%;
+  }
+
