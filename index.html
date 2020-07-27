@@ -27,6 +27,8 @@
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link href="./typography.css" rel="stylesheet" type="text/css" />
+    <link href="./colors.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
@@ -50,8 +52,8 @@
       <!--End Nav Links-->
       <!--START Hero content-->
       <div class="herotextwrap">
-        <h1>Derek Brumby</h1>
-        <h2>
+        <h1 class="blue1">Derek Brumby</h1>
+        <h2 class="blue2">
           is an innovative leader who designs brands & products that connect
           with users.
         </h2>
@@ -104,22 +106,22 @@
             </div>
             <div class="dee-two-col">
               <div class="dee-position">
-                <div class="dee-date">March 2019 — Present</div>
-                <div class="dee-position-title">Principle UI / UX Designer</div>
+                <h5>March 2019 — Present</h5>
+                <h3>Principle UI / UX Designer</h3>
                 <h5>Soul Refiner</h5>
-                <p class="dee-small-text dee-dark">Stuart Florida</p>
+                <p>Stuart Florida</p>
               </div>
               <div class="dee-position">
-                <div class="dee-date">March 2019 — Present</div>
-                <div class="dee-position-title">Graphic Designer</div>
+                <h5>March 2019 — Present</h5>
+                <h3>Graphic Designer</h3>
                 <h5>KingdomWorks Studios</h5>
-                <p class="dee-small-text dee-dark">Stuart Florida</p>
+                <p>Stuart Florida</p>
               </div>
               <div class="dee-position">
-                <div class="dee-date">2013 — Present</div>
-                <div class="dee-position-title">Owner & Graphic Designer</div>
+                <h5>2013 — Present</h5>
+                <h3>Owner & Graphic Designer</h3>
                 <h5>Brumby Visuals</h5>
-                <p class="dee-small-text dee-dark">Remote</p>
+                <p>Remote</p>
               </div>
             </div>
           </div>
@@ -148,7 +150,7 @@
             />
           </svg>
         </div>
-        <p class="p-white">
+        <p class="white">
           Video streaming and curriculum platform for churches and their
           members. I manage the whole product design process, from research, to
           design, prototyping, and final html and css styling.
@@ -247,7 +249,7 @@
             />
           </svg>
         </div>
-        <p class="p-white" style="color: #000000;">
+        <p class="black">
           Clean, nutritious foods with simple ingredients. Simple Mills
           partnered with me to create their marketing campaigns including
           large-format print ads, as well as digital publications, ecommerce
@@ -352,7 +354,7 @@
             />
           </svg>
         </div>
-        <p class="p-white">
+        <p class="white">
           Premium grass-fed protein drinks. I've partnered with Iconic to create
           new packaging designs, as well as tradeshow and point of sale
           experience design.
@@ -445,7 +447,7 @@
             />
           </svg>
         </div>
-        <p class="p-white">
+        <p class="white">
           Consulting to help natural brands bring their products to market. To
           help the launch of this company, I created brand assets, messaging,
           and design tone through: Logo design, letterhead, business cards, and
@@ -504,7 +506,7 @@
             />
           </svg>
         </div>
-        <p class="p-white" style="color: black;">
+        <p class="black">
           Dashboard camera mobile app that uses machine vision and sensor fusion
           algorithms to analyze a vehicle’s surroundings including road
           conditions and other possible hazards. I have helped Nic's to redesign
@@ -542,14 +544,16 @@
     </div>
     <!--End Project Nics-->
     <div id="contact" class="footer">
-      <h2 class="projecth2-white blue">Let's Connect</h2>
+      <h2 class="blue1">Let's Connect</h2>
       <div class="footerdiv"></div>
       <div class="contacticons">
         <a
-          href="mailto:brumbyvisuals@gmail.com?subject=mail%20from%20brumbyvisuals.com"
+          href="mailto:brumbyvisuals@gmail.com"
           class="contactimage w-inline-block"
-          ><img src="./svg/email.svg" alt="Email" title="Email Derek" /></a
-        ><a
+          ><img src="./svg/email.svg" alt="Email" title="Email Derek"
+        /></a>
+        <!-- This is my instagram link... turning it off for now to prioritize linkedin
+          <a
           href="https://www.instagram.com/derekbrumby/"
           target="_blank"
           class="contactimage w-inline-block"
@@ -557,14 +561,25 @@
             src="./svg/instagram.svg"
             alt="Instagram"
             title="Derek on Instagram" /></a
-        ><a
+        >
+      -->
+        <a
+          href="https://www.behance.net/brumbyvisuals"
+          target="_blank"
+          class="contactimage w-inline-block"
+          ><img
+            src="./svg/linkedin.svg"
+            alt="LinkedIn"
+            title="Derek on LinkedIn"
+        /></a>
+        <a
           href="https://www.behance.net/brumbyvisuals"
           target="_blank"
           class="contactimage w-inline-block"
           ><img src="./svg/behance.svg" alt="Behance" title="Derek on Behance"
         /></a>
       </div>
-      <div class="footertext">
+      <div class="footertext blue2">
         © Made by Derek Brumby.
       </div>
     </div>
