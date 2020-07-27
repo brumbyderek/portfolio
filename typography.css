@@ -9,7 +9,7 @@ h1 {
 h2 {
   font-family: "Libre Baskerville", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: min(max(20px, 4vw), 48px);
   line-height: 140%;
   margin-bottom: 10px;
