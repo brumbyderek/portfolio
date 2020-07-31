@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Libre Baskerville", sans-serif;
+  font-family: "Recoleta Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: min(max(32px, 5vw), 56px);
@@ -57,4 +57,20 @@ p {
   font-size: min(max(16px, 1.5vw), 20px);
   margin-top: 0;
   line-height: 150%;
+}
+
+/*============================
+IMPORT TYPEFACES HERE
+=============================*/
+@font-face {
+  font-family: "Recoleta Bold";
+  src: url("./fonts/Recoleta-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta SemiBold";
+  src: url("./fonts/Recoleta-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
 }

@@ -16,6 +16,10 @@ body {
   line-height: 20px;
   color: #333;
 }
+video source {
+  width: 100%;
+  height: auto;
+}
 a {
   background-color: transparent;
 }
@@ -115,6 +119,9 @@ p {
   display: block;
   margin-top: -34px;
   text-align: right;
+}
+.linkpadding {
+  padding-right: 50px;
 }
 
 .herotextwrap {
@@ -493,6 +500,9 @@ MEDIA QUERIES START HEREBELOW
 }
 
 @media screen and (max-width: 479px) {
+  .linkpadding {
+    padding-right: 0px;
+  }
   .herosection {
     border-width: 40px 30px 30px;
   }
