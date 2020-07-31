@@ -71,6 +71,27 @@ p {
   height: auto;
   width: 100%;
 }
+.threecolumngrid {
+  display: grid;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 3.5vw;
+  grid-row-gap: 3.5vw;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
 .herovideo {
   position: relative;
   display: flex;
@@ -141,6 +162,35 @@ p {
   background: linear-gradient(180deg, #eeede5 0%, #b9cad5 100%);
   min-height: 100vh;
   display: flex;
+  align-items: center;
+}
+.skillssection {
+  margin-right: 45px;
+  margin-bottom: 45px;
+  margin-left: 45px;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  background: linear-gradient(180deg, #eeede5 0%, #b9cad5 100%);
+  display: flex;
+  align-items: center;
+}
+.flex-vertical-center-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -500,6 +550,23 @@ MEDIA QUERIES START HEREBELOW
 }
 
 @media screen and (max-width: 479px) {
+  .flex-vertical-center-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .threecolumngrid {
+    margin-top: 40px;
+    grid-row-gap: 6vw;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
   .linkpadding {
     padding-right: 0px;
   }
@@ -520,6 +587,13 @@ MEDIA QUERIES START HEREBELOW
     margin-left: 25px;
   }
   .aboutsection {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  .skillssection {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;

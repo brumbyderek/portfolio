@@ -2,7 +2,7 @@ h1 {
   font-family: "Recoleta Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: min(max(32px, 5vw), 56px);
+  font-size: min(max(32px, 5vw), 72px);
   line-height: 150%;
   margin-bottom: 10px;
 }
@@ -23,13 +23,13 @@ h3 {
   margin-bottom: 10px;
 }
 h4 {
-  font-size: 18px;
+  font-size: min(max(16px, 1.5vw), 24px);
   line-height: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 h5 {
-  font-size: min(max(14px, 1vw), 16px);
+  font-size: min(max(14px, 1.5vw), 18px);
   line-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -57,6 +57,9 @@ p {
   font-size: min(max(16px, 1.5vw), 20px);
   margin-top: 0;
   line-height: 150%;
+}
+.light {
+  font-weight: 300;
 }
 
 /*============================
