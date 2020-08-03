@@ -56,7 +56,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   border: 45px solid #fff;
-  background-image: url("./img/derek.jpg");
+  background-image: url("../img/derek.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -224,28 +224,28 @@ p {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-image: url("./img/soul.jpg");
+  background-image: url("../img/soul.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .projectsection.simplemills {
-  background-image: url("./img/simple.jpg");
+  background-image: url("../img/simple.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 .projectsection.iconic {
-  background-image: url("./img/iconic.jpg");
+  background-image: url("../img/iconic.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 .projectsection.cultivar {
-  background-image: url("./img/cultivar.jpg");
+  background-image: url("../img/cultivar.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 .projectsection.nics {
-  background-image: url("./img/nics.jpg");
+  background-image: url("../img/nics.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -409,37 +409,6 @@ p {
   animation: fadeInLanding 1.2s ease-in-out 0s;
 }
 
-/* It go bouncy bounce */
-@keyframes upDown {
-  from {
-    transform: translateY(0px);
-  }
-
-  to {
-    transform: translateY(20px);
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-/* Fade into page once landed */
-@keyframes fadeInLanding {
-  from {
-    opacity: 0%;
-    transform: translateY(30px);
-  }
-
-  to {
-    opacity: 100%;
-    transform: translateY(0px);
-  }
-}
-
 /*============================================
 MEDIA QUERIES START HEREBELOW
 ============================================*/
@@ -450,7 +419,7 @@ MEDIA QUERIES START HEREBELOW
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-image: url("./img/derek-m.jpg");
+    background-image: url("../img/derek-m.jpg");
     background-position: 50% 50%;
     background-size: cover;
   }

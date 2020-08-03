@@ -26,9 +26,10 @@
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="./styles.css" rel="stylesheet" type="text/css" />
-    <link href="./typography.css" rel="stylesheet" type="text/css" />
-    <link href="./colors.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="./css/colors.css" rel="stylesheet" type="text/css" />
+    <link href="./css/animation.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
@@ -52,8 +53,8 @@
       <!--End Nav Links-->
       <!--START Hero content-->
       <div class="herotextwrap">
-        <h1 class="blue1">Derek Brumby</h1>
-        <h2 class="blue2">
+        <h1 class="blue1 fadein">Derek Brumby</h1>
+        <h2 class="blue2 fadein">
           is an innovative leader who designs brands & products that connect
           with users.
         </h2>
@@ -82,23 +83,23 @@
             </div>
           </div>
           <div class="dee-container">
-            <div class="dee-two-col">
-              <p class="about-p blue2">
+            <div class="dee-two-col blue2">
+              <p class="about-p">
                 Currently, I serve in a dual role as both the Principle UI / UX
                 Designer of Soul Refiner and as the Graphic Designer for
                 KingdomWorks Studios.
               </p>
-              <p class="about-p blue2">
+              <p class="about-p">
                 Soul Refiner is a Digital streaming platform bringing cinematic
                 small group courses to churches and providing in-depth digital
                 tools for personal study, and group accountability.
               </p>
-              <p class="about-p blue2">
+              <p class="about-p">
                 KingdomWorks studios creates the content for Soul Refiner as
                 well as producing faith-based films. I design all the marketing
                 materials and visual creative for these.
               </p>
-              <p class="about-p blue2">
+              <p class="about-p">
                 In addition to providing design leadership at these two
                 companies, I have worked with many brands to create captivating
                 and authentic Experience Design, Branding, and Marketing Design.
@@ -106,7 +107,7 @@
               <a
                 href="./hosted/resume.pdf"
                 target="_blank"
-                title="Download Derek's CV"
+                title="Download Derek's Resume"
                 style="
                   background: #00000050;
                   border: 1px solid #ffffff;
@@ -122,10 +123,10 @@
                   letter-spacing: 1px;
                   padding: 10px 45px;
                 "
-                >DOWNLOAD CV</a
+                >DOWNLOAD RESUME</a
               >
             </div>
-            <div class="dee-two-col">
+            <div class="dee-two-col blue2">
               <div class="dee-position">
                 <h3 style="margin-top: 0px;">Principle UI / UX Designer</h3>
                 <h5>Soul Refiner</h5>
@@ -149,14 +150,15 @@
     <!--Start Skills Section-->
     <div id="about" class="skillssection">
       <div class="dee-section-full">
-        <h1 class="blue2" style="text-align: center;">What I Do</h1>
+        <h1
+          class="blue2"
+          style="text-align: center; margin-top: 16px; margin-bottom: 56px;"
+        >
+          What I Do
+        </h1>
         <div class="threecolumngrid">
           <div style="opacity: 1;" class="flex-vertical-center-top">
-            <img
-              src="https://uploads-ssl.webflow.com/5c1061b0ea9a856c3b0f7162/5dc6f4da6ade63258ff41ec2_greg-gunn-services-animation-video-motion-design.png"
-              width="350px"
-              alt=""
-            />
+            <img src="./svg/creative.svg" width="350px" alt="" />
             <h3 class="blue2">Creative Direction</h3>
             <p class="blue2">
               Complex ideas need simplicity. I bridge the gap between product
@@ -164,11 +166,7 @@
             </p>
           </div>
           <div style="opacity: 1;" class="flex-vertical-center-top">
-            <img
-              src="https://uploads-ssl.webflow.com/5c1061b0ea9a856c3b0f7162/5dc6f4da6ade63258ff41ec2_greg-gunn-services-animation-video-motion-design.png"
-              width="350px"
-              alt=""
-            />
+            <img src="./svg/code.svg" width="350px" alt="" />
             <h3 class="blue2">HTML & CSS</h3>
             <p class="blue2">
               Being a designer that codes enables me to fully build rich,
@@ -176,16 +174,11 @@
             </p>
           </div>
           <div style="opacity: 1;" class="flex-vertical-center-top">
-            <img
-              src="https://uploads-ssl.webflow.com/5c1061b0ea9a856c3b0f7162/5dc6f4da6ade63258ff41ec2_greg-gunn-services-animation-video-motion-design.png"
-              width="350px"
-              alt=""
-            />
+            <img src="./svg/user.svg" width="350px" alt="" />
             <h3 class="blue2">User Experience</h3>
             <p class="blue2">
-              I work closely with product owners to create Digital Products that
-              meet the needs of users, providing smooth, enjoyable user
-              experiences.
+              I design efficient, user-centric Digital Products with a goal of
+              innovating better and faster.
             </p>
           </div>
         </div>
@@ -632,7 +625,7 @@
         /></a>
       </div>
       <div class="footertext blue2">
-        © Made by Derek Brumby.
+        © 2020 Derek Brumby.
       </div>
     </div>
   </body>

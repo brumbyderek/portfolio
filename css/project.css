@@ -24,15 +24,6 @@
   max-width: 100%;
 }
 
-.titleText {
-  font-family: "Fahkwang", sans-serif;
-  font-weight: 200;
-  font-size: 30px;
-
-  margin-bottom: 50px;
-  text-align: center;
-}
-
 #introDetails {
   display: flex;
   flex-direction: row;

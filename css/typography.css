@@ -67,13 +67,13 @@ IMPORT TYPEFACES HERE
 =============================*/
 @font-face {
   font-family: "Recoleta Bold";
-  src: url("./fonts/Recoleta-Bold.otf") format("opentype");
+  src: url("../fonts/Recoleta-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Recoleta SemiBold";
-  src: url("./fonts/Recoleta-SemiBold.otf") format("opentype");
+  src: url("../fonts/Recoleta-SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }
