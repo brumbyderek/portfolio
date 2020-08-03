@@ -7,6 +7,7 @@
   letter-spacing: 2px;
   text-align: center;
   margin-bottom: 30px;
+  margin-top:16px;
   font-size: 12px;
 }
 
@@ -30,7 +31,7 @@
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
+  margin-bottom: 64px;
 }
 
 .introSubText {
@@ -46,6 +47,7 @@
 
 .introDesc {
   width: 30%;
+  min-width:310px;
 }
 
 .descCatTitle {
@@ -53,6 +55,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 200;
+  margin-bottom:8px;
 }
 
 .descCat {
@@ -264,6 +267,10 @@
     margin: 0%;
     margin-bottom: 12%;
   }
+  .introDesc {
+  width: 90%;
+  min-width:90%;
+}
 
   .center {
     margin: 0%;
@@ -294,8 +301,8 @@
   #pageSection,
   .divide,
   .center {
-    width: 100%;
-
+    width: 90%;
+margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
