@@ -1,7 +1,49 @@
 /********** CASE STUDY **********/
 
 /***** Intro section *****/
-
+.srcontent {
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    padding: 50px 0;
+    background:black;
+}
+.srwrapper {
+flex: 1;
+    height: 400px;
+    position: relative;
+}
+.srsvgarea {
+      position: absolute;
+    right: 30px;
+        width: 600px;
+}
+.srtextarea {
+flex: 1;
+    padding-left: 40px;
+}
+.srtitle {
+    font-family: 'Recoleta Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 125%;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+.srtext {
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    max-width: 540px;
+    line-height:150%;
+    color: #ffffff;
+}
 .tag {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -24,14 +66,25 @@
   width: 100%;
   max-width: 100%;
 }
+.intro-p {
+  max-width: 840px;
+    margin-bottom: 25px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    text-align:center;
+    font-size: min(max(16px, 1.5vw), 20px);
+    margin-top: 0;
+    line-height: 150%;
+}
 
-#introDetails {
+.introDetails {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 64px;
+  align-items: center;
 }
 
 .introSubText {
@@ -46,8 +99,11 @@
 }
 
 .introDesc {
-  width: 30%;
+  width: 100%;
   min-width:310px;
+  display:flex;
+  max-width:800px;
+  justify-content: space-between;
 }
 
 .descCatTitle {
@@ -268,8 +324,7 @@
     margin-bottom: 12%;
   }
   .introDesc {
-  width: 90%;
-  min-width:90%;
+  width: 100%;
 }
 
   .center {
@@ -374,4 +429,9 @@ margin: 0 auto;
   .row img {
     padding: 10%;
   }
+}
 
+@media screen and (max-width: 560px) {
+  .introDesc {
+    flex-direction: column;
+  }
