@@ -3,6 +3,13 @@
 .fadein {
   animation: fadeInLanding 1.2s ease-in-out 0s;
 }
+#svgepisodethumbs {
+  animation: episodescroll 10s ease infinite;
+}
+#svgepisodelarge {
+  animation: episodesfade 10s linear infinite;
+  opacity: 0;
+}
 
 /* It go bouncy bounce */
 @keyframes upDown {
@@ -32,5 +39,30 @@
   to {
     opacity: 100%;
     transform: translateY(0px);
+  }
+}
+@keyframes episodescroll {
+  0% {
+    x: 0px;
+  }
+  50% {
+    x: -2800px;
+  }
+  100% {
+    x: -2800px;
+  }
+}
+@keyframes episodesfade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }

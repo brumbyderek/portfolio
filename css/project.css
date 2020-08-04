@@ -3,53 +3,41 @@
 /***** Intro section *****/
 .srcontent {
   display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 200px;
-    padding: 50px 0;
-    background:black;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 200px;
+  padding: 50px 0;
+  background: radial-gradient(
+    111.4% 111.4% at 50% -11.4%,
+    #234775 0%,
+    #000000 100%
+  );
 }
 .srwrapper {
-flex: 1;
-    height: 400px;
-    position: relative;
+  flex: 1;
+  height: 400px;
+  position: relative;
 }
 .srsvgarea {
-      position: absolute;
-    right: 30px;
-        width: 600px;
+  position: absolute;
+  right: 30px;
+  width: 600px;
+  height: auto;
 }
 .srtextarea {
-flex: 1;
-    padding-left: 40px;
+  flex: 1;
+  padding-left: 40px;
 }
-.srtitle {
-    font-family: 'Recoleta Bold', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 125%;
-    margin-bottom: 40px;
-    color: #ffffff;
-}
-.srtext {
-  font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    max-width: 540px;
-    line-height:150%;
-    color: #ffffff;
-}
+
 .tag {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
   margin-bottom: 30px;
-  margin-top:16px;
+  margin-top: 16px;
   font-size: 12px;
 }
 
@@ -68,13 +56,13 @@ flex: 1;
 }
 .intro-p {
   max-width: 840px;
-    margin-bottom: 25px;
-    font-family: "roboto", sans-serif;
-    font-weight: 400;
-    text-align:center;
-    font-size: min(max(16px, 1.5vw), 20px);
-    margin-top: 0;
-    line-height: 150%;
+  margin-bottom: 25px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: min(max(16px, 1.5vw), 20px);
+  margin-top: 0;
+  line-height: 150%;
 }
 
 .introDetails {
@@ -100,10 +88,11 @@ flex: 1;
 
 .introDesc {
   width: 100%;
-  min-width:310px;
-  display:flex;
-  max-width:800px;
+  min-width: 310px;
+  display: flex;
+  max-width: 800px;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .descCatTitle {
@@ -111,7 +100,7 @@ flex: 1;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 200;
-  margin-bottom:8px;
+  margin-bottom: 8px;
 }
 
 .descCat {
@@ -258,6 +247,16 @@ flex: 1;
 .video {
   width: 70%;
 }
+@media only screen and (max-width: 1000px) {
+  .srcontent {
+    flex-direction: column;
+  }
+  .srsvgarea {
+    width: 90vw;
+    position: relative;
+    margin-bottom: 48px;
+  }
+}
 @media screen and (max-width: 800px) {
   /* nav */
   label {
@@ -324,8 +323,8 @@ flex: 1;
     margin-bottom: 12%;
   }
   .introDesc {
-  width: 100%;
-}
+    width: 100%;
+  }
 
   .center {
     margin: 0%;
@@ -357,7 +356,7 @@ flex: 1;
   .divide,
   .center {
     width: 90%;
-margin: 0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
@@ -435,3 +434,4 @@ margin: 0 auto;
   .introDesc {
     flex-direction: column;
   }
+}
