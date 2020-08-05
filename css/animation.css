@@ -10,7 +10,24 @@
   animation: episodesfade 10s linear infinite;
   opacity: 0;
 }
-
+#cursorposition {
+  animation: cursorposition 10s ease infinite;
+}
+#cursorpointer {
+  animation: pointeropacity 10s ease infinite;
+}
+#cursordefault {
+  animation: defaultopacity 10s ease infinite;
+}
+#episodehover {
+  animation: episodehover 10s ease infinite;
+}
+#overlay {
+  animation: overlay 10s ease infinite;
+}
+#player {
+  animation: overlay 10s ease infinite;
+}
 /* It go bouncy bounce */
 @keyframes upDown {
   from {
@@ -42,7 +59,7 @@
   }
 }
 @keyframes episodescroll {
-  0% {
+  20% {
     x: 0px;
   }
   50% {
@@ -60,6 +77,126 @@
     opacity: 0;
   }
   55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes cursorposition {
+  0% {
+    transform: translate(755px, 741px);
+  }
+  18% {
+    transform: translate(902px, 928px);
+  }
+  22% {
+    transform: translate(656px, 923px);
+  }
+  50% {
+    transform: translate(656px, 923px);
+  }
+  57% {
+    transform: translate(1102px, 914px);
+  }
+  60% {
+    transform: translate(1102px, 914px);
+  }
+  70% {
+    transform: translate(150px, 730px);
+  }
+  100% {
+    transform: translate(150px, 730px);
+  }
+}
+@keyframes defaultopacity {
+  0% {
+    opacity: 1;
+  }
+  6% {
+    opacity: 1;
+  }
+  7% {
+    opacity: 0;
+  }
+  62% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 1;
+  }
+  67% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes pointeropacity {
+  0% {
+    opacity: 0;
+  }
+  6% {
+    opacity: 0;
+  }
+  7% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 1;
+  }
+  63% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 0;
+  }
+  68% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes episodehover {
+  0% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes overlay {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes player {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
     opacity: 1;
   }
   100% {
