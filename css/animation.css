@@ -73,10 +73,10 @@
   0% {
     opacity: 0;
   }
-  50% {
+  57% {
     opacity: 0;
   }
-  55% {
+  59% {
     opacity: 1;
   }
   100% {
@@ -106,7 +106,7 @@
     transform: translate(150px, 730px);
   }
   100% {
-    transform: translate(150px, 730px);
+    transform: translate(823px, 500px);
   }
 }
 @keyframes defaultopacity {
