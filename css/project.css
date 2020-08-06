@@ -47,15 +47,6 @@
   padding-left: 40px;
 }
 
-.tag {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 16px;
-  font-size: 12px;
-}
-
 .imageHeader {
   display: flex;
   justify-content: center;
@@ -107,6 +98,11 @@
   max-width: 800px;
   justify-content: space-between;
   margin-top: 40px;
+}
+.twocolumnblock {
+  width: 50vw;
+  min-width: 320px;
+  border: 1vw solid #fff;
 }
 
 .descCatTitle {
@@ -285,7 +281,10 @@
     float: right;
     margin-bottom: 10%;
   }
-
+  .twocolumnblock {
+    width: 96vw;
+    border: 2vw solid #fff;
+  }
   .menu {
     width: 100%;
   }

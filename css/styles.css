@@ -193,6 +193,21 @@ p {
   -ms-flex-align: center;
   align-items: center;
 }
+.buttonstyle {
+  background: #00000050;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px 45px;
+}
 
 .aboutcontainer {
   display: block;
