@@ -318,7 +318,9 @@ p {
 }
 
 .footer {
-  padding: 42px;
+  padding: 42px 0;
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
 }
 

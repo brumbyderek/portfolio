@@ -15,6 +15,25 @@
   margin-top: 120px;
   max-width: 680px;
 }
+.shipperwrap {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.shippergrid {
+  width: 34vw;
+}
+.shipperheaders {
+  width: 66vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shipperheaders img {
+  width: 46%;
+  margin: 2%;
+  height: auto;
+  object-fit: contain;
+}
 .srcontent {
   display: flex;
   -webkit-box-align: center;
@@ -257,6 +276,7 @@
 .video {
   width: 70%;
 }
+
 @media only screen and (max-width: 1000px) {
   .srcontent {
     flex-direction: column;
@@ -273,6 +293,23 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .shipperwrap {
+    flex-direction: column;
+  }
+  .shippergrid {
+    width: 90vw;
+  }
+  .shipperheaders {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shipperheaders img {
+    width: 100%;
+    padding: 2%;
+    height: auto;
+    object-fit: contain;
+  }
   /* nav */
   label {
     display: block;

@@ -28,6 +28,30 @@
 #player {
   animation: overlay 10s ease infinite;
 }
+#amazonpage {
+  animation: scrolling 20s ease infinite;
+}
+#ship1 {
+  animation: ship1 30s ease infinite;
+}
+#ship2 {
+  animation: ship2 30s ease infinite;
+}
+#ship3 {
+  animation: ship3 30s ease infinite;
+}
+#ship4 {
+  animation: ship4 30s ease infinite;
+}
+#ship5 {
+  animation: ship5 30s ease infinite;
+}
+#ship6 {
+  animation: ship6 30s ease infinite;
+}
+#ship7 {
+  animation: ship7 30s ease infinite;
+}
 /* It go bouncy bounce */
 @keyframes upDown {
   from {
@@ -197,6 +221,118 @@
     opacity: 0;
   }
   75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scrolling {
+  0% {
+    y: 0;
+  }
+  5% {
+    y: 0;
+  }
+  47% {
+    y: -792;
+  }
+  53% {
+    y: -792;
+  }
+  100% {
+    y: 0;
+  }
+}
+@keyframes ship1 {
+  0% {
+    opacity: 1;
+  }
+  13% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes ship2 {
+  0% {
+    opacity: 1;
+  }
+  27% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes ship3 {
+  0% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes ship4 {
+  0% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes ship5 {
+  0% {
+    opacity: 1;
+  }
+  69% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes ship6 {
+  0% {
+    opacity: 1;
+  }
+  83% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes ship7 {
+  0% {
     opacity: 1;
   }
   100% {
