@@ -1,32 +1,4 @@
 (function () {
-  /*
-
- Copyright The Closure Library Authors.
- SPDX-License-Identifier: Apache-2.0
-*/
-  (window.goog = window.goog || {}).inherits = function (a, c) {
-    function b() {}
-    b.prototype = c.prototype;
-    a.prototype = new b();
-    a.prototype.constructor = a;
-  };
-}.call(this));
-/*
-
- Copyright The Closure Library Authors.
- SPDX-License-Identifier: Apache-2.0
-*/
-/*
-
- Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
- This code may only be used under the BSD style license found at
- http://polymer.github.io/LICENSE.txt The complete set of authors may be found
- at http://polymer.github.io/AUTHORS.txt The complete set of contributors may
- be found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by
- Google as part of the polymer project is also subject to an additional IP
- rights grant found at http://polymer.github.io/PATENTS.txt
-*/
-(function () {
   if (
     void 0 !== window.Reflect &&
     void 0 !== window.customElements &&
@@ -112,11 +84,6 @@
       });
     return a;
   })();
-  function ra(a) {
-    var b = qa.has(a);
-    a = /^[a-z][.0-9_a-z]*-[-.0-9_a-z]*$/.test(a);
-    return !b && a;
-  }
   var sa = document.contains
     ? document.contains.bind(document)
     : document.documentElement.contains.bind(document.documentElement);
