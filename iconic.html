@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <!--Designed and custom Coded by Derek Brumby-->
-<html>
+<html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Derek Brumby - Full Stack Designer</title>
     <meta
       content="Derek is an innovative leader who designs brands &amp; products that connect with users."
       name="description"
     />
+    <link href="./css/typography.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./gallery.js"></script>
+    <link href="./css/gallery.css" rel="stylesheet" type="text/css" />
+    <link href="./css/animation.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./css/colors.css" rel="stylesheet" type="text/css" />
+    <link href="./css/project.css" rel="stylesheet" type="text/css" />
+    <link href="./meta/favsmall.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="./meta/favlarge.png" rel="apple-touch-icon" />
     <meta content="Derek Brumby - Full Stack Designer" property="og:title" />
     <meta
       content="Derek is an innovative leader who designs brands &amp; products that connect with users."
@@ -25,25 +43,299 @@
     <meta content="./meta/site-image.jpg" property="twitter:image" />
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="./css/typography.css" rel="stylesheet" type="text/css" />
-    <link href="./css/colors.css" rel="stylesheet" type="text/css" />
-    <link href="./css/animation.css" rel="stylesheet" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="./meta/favsmall.png" rel="shortcut icon" type="image/x-icon" />
-    <link href="./meta/favlarge.png" rel="apple-touch-icon" />
   </head>
   <body>
+    <div class="content">
+      <div class="herovideo">
+        <!--Start Nav Links-->
+        <div class="headerlinkwrapper linkpadding">
+          <a href="./index.html#about" class="headerlink">about</a
+          ><a href="./index.html#work" class="headerlink">work</a
+          ><a href="#contact" class="headerlink">contact</a>
+        </div>
+        <!--End Nav Links-->
+      </div>
+      <!--END Hero content-->
+      <!--START Description Section-->
+      <div class="intro">
+        <div class="logowrap" style="width: min(max(160px, 20vw), 200px);">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 185 77"
+            fill="none"
+          >
+            <path
+              d="M0 5.5l6.2-3.4v35.4H0v-32zm15.3 14.4v-.1A18 18 0 0133.6 1.5C40.1 1.5 44 3.8 47.4 7l-4 4.6a14 14 0 00-9.9-4.4c-6.8 0-11.7 5.6-11.7 12.5v.1c0 6.9 4.9 12.6 11.7 12.6 4.4 0 7.1-1.8 10.2-4.6l4 4a18.2 18.2 0 01-14.4 6.3c-10.3 0-18-8-18-18.2zM97.4 2.1h5.8l18.9 24.5V7.7l6.2-5.6v35.4H123l-19.5-25.2v25.2h-6.1V2.1zm40.3 4.5l6.3-4.5v35.4h-6.3V6.6zm14.2 13.3v-.1a18 18 0 0118.2-18.3c6.6 0 10.5 2.3 13.9 5.5l-4 4.6a14.2 14.2 0 00-9.9-4.4c-6.8 0-11.7 5.6-11.7 12.5v.1c0 6.9 4.9 12.6 11.7 12.6 4.3 0 7.1-1.8 10.2-4.6l4 4a18.2 18.2 0 01-14.4 6.3c-10.3 0-18-8-18-18.2zM55.3 10.5a18.1 18.1 0 00-2.4 9.3v.1c0 3.3.8 6.4 2.3 9.1l7-9.3-6.9-9.2z"
+              fill="#00b4e5"
+            />
+            <path
+              d="M77.6 19.7L64.7 2.4c-2 .7-3.8 1.8-5.4 3.2l10.6 14h.1v.1h-.1L59.2 34c1.5 1.3 3.3 2.4 5.3 3.2l13.1-17.5z"
+              fill="#00b4e5"
+            />
+            <path
+              d="M71.9 1.1h-.5l14 18.5h.1l-.1.1h.1-.1L71.2 38.5h.6c11.1 0 19-8.5 19-18.7v-.1C90.8 9.5 83 1.1 71.9 1.1zM12 46.2H.5v30.3H5V66.2h6.5c7.2 0 12-4 12-10.1 0-6-4.5-9.9-11.5-9.9zm7 10.1c0 3.5-2.9 5.8-7.4 5.8H5V50.4h6.7c4.7 0 7.3 2.1 7.3 5.8v.1zM50.9 55.6v-.1c0-2.4-.8-4.6-2.4-6.2-2-2-5.1-3.1-8.7-3.1H26.7v30.3h4.4V65.2h7.5L47 76.5h5.5l-9.1-12.1c4.7-1.2 7.5-4.4 7.5-8.8zm-4.5.1c0 3.3-2.7 5.4-6.9 5.4h-8.4V50.4h8.4c4.4 0 6.9 1.9 6.9 5.3zM70.4 45.7c-8.7 0-15.5 6.9-15.5 15.8 0 8.8 6.6 15.5 15.4 15.5 8.7 0 15.5-6.9 15.5-15.7 0-8.9-6.6-15.6-15.4-15.6zm10.8 15.7v.1c0 6.4-4.6 11.3-10.8 11.3-6.2 0-10.9-4.9-10.9-11.5 0-6.5 4.6-11.4 10.8-11.4 6.2 0 10.9 5 10.9 11.5zM87.5 50.4h9.8v26.1h4.5V50.4h9.8v-4.2H87.5v4.2zM121.9 63.3h15.9v-4.1h-15.9v-8.8h17.8v-4.2h-22.3v30.3h22.5v-4.2h-18v-9zM151 46.2h-4.5v30.3h4.5V46.2zM180.6 46.2v22.3l-17.5-22.3h-3.9v30.3h4.3V53.7l18 22.8h3.5V46.2h-4.4z"
+              fill="#00b4e5"
+            />
+            <path
+              d="M71.9 39.4a19.7 19.7 0 110-39.4 19.7 19.7 0 110 39.4zm0-34.9c-8.5 0-15.4 6.8-15.4 15.2a15.4 15.4 0 0030.7 0c0-8.4-6.9-15.2-15.3-15.2z"
+              fill="#00b4e5"
+            />
+          </svg>
+          <div class="tag">Marketing Design</div>
+        </div>
+        <div class="introDetails">
+          <div class="intro-p blue2">
+            <p>
+              Simple Mills partnered with me to create their marketing campaigns
+              including large-format print ads, as well as digital publications,
+              ecommerce storefront design, and point of purchase experiences. I
+              helped reinvision the brand style in marketing.
+            </p>
+          </div>
+          <div class="introDesc">
+            <div class="descCat" style="width: 30%; max-width: 300px;">
+              <div class="descCatTitle">Roles</div>
+              Marketing Design<br />Art Direction<br />Photography
+            </div>
+
+            <div class="descCat">
+              <div class="descCatTitle">Tools</div>
+              Adobe Photoshop<br />
+              Adobe Illustrator<br />
+            </div>
+
+            <div class="descCat">
+              <div class="descCatTitle">Timeline</div>
+              March - October 2018
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END Description Section-->
+    <!-- START Amazon Storefront Section-->
+    <gwd-360gallery
+      wrap=""
+      class="gallery"
+      images="./iconic/spin-4pack/0001.png,./iconic/spin-4pack/0002.png,./iconic/spin-4pack/0003.png,./iconic/spin-4pack/0004.png,./iconic/spin-4pack/0005.png,./iconic/spin-4pack/0006.png,./iconic/spin-4pack/0007.png,./iconic/spin-4pack/0008.png,./iconic/spin-4pack/0009.png,./iconic/spin-4pack/0010.png,./iconic/spin-4pack/0011.png,./iconic/spin-4pack/0012.png,./iconic/spin-4pack/0013.png,./iconic/spin-4pack/0014.png,./iconic/spin-4pack/0015.png,./iconic/spin-4pack/0016.png,./iconic/spin-4pack/0017.png,"
+    ></gwd-360gallery>
+    <!-- END Amazon Storefront Section-->
+    <!--Out Of Home Section-->
+    <div
+      style="
+        width: 100vw;
+        background-color: #00b4e5;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-top: 16px;
+      "
+    >
+      <h2 style="text-align: center;" class="ricoleta white">
+        Out-of-Home Ad Campaign
+      </h2>
+      <p class="sectiondesc white">
+        I designed an Out-of-Home campaign that comprehensively covered multiple
+        main train stations in downtown Chicago as well as bus shelters and full
+        bus wraps. I executed all design deliverables, as well as photography
+        and retouching for this campaign.
+      </p>
+    </div>
+    <div style="width: 100vw; border-bottom: 1vw solid #fff;">
+      <img src="./simplemills/bus.jpg" alt="bus with simple mills ad" />
+    </div>
+    <div style="width: 100vw; display: flex; flex-wrap: wrap;">
+      <img
+        class="twocolumnblock"
+        src="./simplemills/grid1.jpg"
+        alt="screen with simple mills ad"
+      />
+      <img
+        class="twocolumnblock"
+        src="./simplemills/grid2.jpg"
+        alt="2 screens with simple mills ad"
+      />
+      <img
+        class="twocolumnblock"
+        src="./simplemills/grid3.jpg"
+        alt="simple mills train station plaform ad"
+      />
+      <img
+        class="twocolumnblock"
+        src="./simplemills/grid4.jpg"
+        alt="turnstiles with simple mills ad"
+      />
+      <img
+        class="twocolumnblock"
+        src="./simplemills/grid5.jpg"
+        alt="turnstiles with simple mills ad"
+      />
+      <img
+        class="twocolumnblock"
+        src="./simplemills/grid6.jpg"
+        alt="Bus stop with simple mills ad"
+      />
+    </div>
+    <div
+      style="
+        width: 100vw;
+        border-top: 1vw solid #fff;
+        border-bottom: 1vw solid #fff;
+      "
+    >
+      <img
+        src="./simplemills/3-screens.jpg"
+        alt="3 screens with simple mills ad"
+      />
+    </div>
+
+    <!--END Out Of Home Section-->
+    <!--Section-->
+    <div
+      style="
+        width: 100vw;
+        background-color: #00b4e5;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-top: 8px;
+      "
+    >
+      <h2 style="text-align: center;" class="ricoleta white">
+        Seasonal Brand Magazine
+      </h2>
+      <p class="sectiondesc white">
+        I partnered with Simple Mills to create their seasonal magazine for fall
+        2018, containing recipes, and articles about nutrition and wellness. I
+        did all the image editing and graphic design for the magazine.
+      </p>
+    </div>
+    <div style="width: 100vw; border-bottom: 1vw solid #fff;">
+      <img
+        src="./simplemills/fall-issue1.jpg"
+        alt="image of Simple Mills Fall Issue Magazine"
+      />
+    </div>
+    <iframe
+      src="https://e.issuu.com/legacy.html?documentId=180813220414-5d503d7999f8e288324d0585d140a04d"
+      allowfullscreen="allowfullscreen"
+      frameborder="0"
+      width="560"
+      height="315"
+      style="height: 80vh; width: 100%; border: none;"
+      >&nbsp;</iframe
+    >
+    <iframe
+      src="https://e.issuu.com/legacy.html?documentId=181113203313-7dc9d5cc83bbd573166812d8ec1add2d"
+      allowfullscreen="allowfullscreen"
+      frameborder="0"
+      width="560"
+      height="315"
+      style="height: 80vh; width: 100%; border: none;"
+      >&nbsp;</iframe
+    >
+
+    <!--END Section-->
+    <!--Section-->
+    <div
+      style="
+        width: 100vw;
+        background-color: #00b4e5;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-top: 16px;
+      "
+    >
+      <h2 style="text-align: center;" class="ricoleta white">
+        Shipper Displays
+      </h2>
+      <p class="sectiondesc white">
+        Simple Mills partnered with me to create these Shippers for their
+        various product lines while establishing a consistent visual tone
+        throughout all versions
+      </p>
+    </div>
+    <div class="shipperwrap">
+      <div style="height: 100vh; max-height: 1024px;" class="shippergrid">
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 418 1024"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <foreignObject id="ship7" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper7.jpg"
+          /></foreignObject>
+          <foreignObject id="ship6" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper6.jpg"
+          /></foreignObject>
+          <foreignObject id="ship5" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper5.jpg"
+          /></foreignObject>
+          <foreignObject id="ship4" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper4.jpg"
+          /></foreignObject>
+          <foreignObject id="ship3" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper3.jpg"
+          /></foreignObject>
+          <foreignObject id="ship2" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper2.jpg"
+          /></foreignObject>
+          <foreignObject id="ship1" x="0" y="0" width="418" height="1024"
+            ><img
+              alt="soul refiner episode"
+              width="418"
+              height="1024"
+              src="./simplemills/shipper1.jpg"
+          /></foreignObject>
+        </svg>
+      </div>
+      <div class="shipperheaders">
+        <img
+          src="simplemills/crunchy-cookies.jpg"
+          alt="Crunchy Cookies shipper header"
+        />
+        <img src="simplemills/cupcakes.jpg" alt="cupcakes shipper header" />
+        <img src="simplemills/hex-crackers.jpg" alt="crackers shipper header" />
+        <img
+          src="simplemills/pumpkin-bread.jpg"
+          alt="Pumpkin Bread shipper header"
+        />
+        <img
+          src="simplemills/soft-cookies.jpg"
+          alt="soft cookies shipper header"
+        />
+        <img
+          src="simplemills/squarecrackers.jpg"
+          alt="crackers shipper header"
+        />
+      </div>
+    </div>
     <!--footer-->
-    <div id="contact" class="footer">
+    <div id="contact" class="footer" style="padding: 0 42px 42px 42px;">
       <h2 class="blue1 ricoleta">Let's Connect</h2>
       <div class="footerdiv"></div>
       <div class="contacticons">
@@ -69,7 +361,7 @@
         /></a>
       </div>
       <div class="footertext blue2">
-        © 2020 designed and coded by Derek Brumby.
+        &#xA9; 2020 designed and coded by Derek Brumby.
       </div>
     </div>
     <!--End footer-->

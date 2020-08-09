@@ -1,6 +1,12 @@
 /********** CASE STUDY **********/
 
 /***** Intro section *****/
+.sectiondesc {
+  max-width: 800px;
+  text-align: center;
+  margin: 30px auto;
+  width: 90%;
+}
 .isgwrap {
   display: flex;
   max-width: 1640px;
@@ -122,6 +128,7 @@
   width: 50vw;
   min-width: 320px;
   border: 1vw solid #fff;
+  margin: 0 auto;
 }
 
 .descCatTitle {
@@ -307,6 +314,7 @@
   .shipperheaders img {
     width: 100%;
     padding: 2%;
+    margin: 2% auto;
     height: auto;
     object-fit: contain;
   }
