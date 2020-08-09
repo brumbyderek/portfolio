@@ -4,6 +4,7 @@ gwd-360gallery {
   background-repeat: no-repeat;
   background-size: contain;
   touch-action: none;
+  cursor: url(../svg/rotate.cur), move;
 }
 gwd-360gallery .gesture {
   position: absolute;
@@ -32,5 +33,5 @@ gwd-page {
 .gallery {
   width: 100%;
   height: auto;
-  max-height: 1024px;
+  max-height: 66vh;
 }
