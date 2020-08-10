@@ -32,6 +32,6 @@ gwd-page {
 }
 .gallery {
   width: 100%;
-  height: auto;
+  height: auto !important;
   max-height: 66vh;
 }
