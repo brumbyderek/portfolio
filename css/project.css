@@ -22,7 +22,7 @@
   max-width: 680px;
 }
 .shipperwrap {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -125,10 +125,11 @@
   margin-top: 40px;
 }
 .twocolumnblock {
-  width: 50vw;
+  width: 50%;
   min-width: 320px;
   border: 1vw solid #fff;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .descCatTitle {
