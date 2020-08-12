@@ -25,6 +25,7 @@ gwd-image > div.intermediate-element {
 gwd-image > div.intermediate-element > img {
   display: block;
   width: 100%;
+  padding: 3%;
   height: 100%;
 }
 gwd-page {
