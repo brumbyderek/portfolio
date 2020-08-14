@@ -6,6 +6,9 @@
 #svgepisodethumbs {
   animation: episodescroll 10s ease infinite;
 }
+#menuslides {
+  animation: menuslides 20s ease alternate infinite;
+}
 #svgepisodelarge {
   animation: episodesfade 10s linear infinite;
   opacity: 0;
@@ -337,5 +340,39 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes menuslides {
+  0% {
+    x: 1312;
+    y: 90;
+  }
+  22% {
+    x: 1312;
+    y: 90;
+  }
+  28% {
+    x: 1285;
+    y: -386;
+  }
+  47% {
+    x: 1285;
+    y: -386;
+  }
+  53% {
+    x: 1255;
+    y: -862;
+  }
+  72% {
+    x: 1255;
+    y: -862;
+  }
+  78% {
+    x: 1225;
+    y: -1340;
+  }
+  100% {
+    x: 1225;
+    y: -1340;
   }
 }
