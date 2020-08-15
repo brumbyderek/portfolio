@@ -131,6 +131,13 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+.threecolumnblock {
+  width: 33.33%;
+  min-width: 320px;
+  border: 1vw solid #fff;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 .descCatTitle {
   font-size: 12px;
@@ -328,6 +335,10 @@
     margin-bottom: 10%;
   }
   .twocolumnblock {
+    width: 96vw;
+    border: 2vw solid #fff;
+  }
+  .threecolumnblock {
     width: 96vw;
     border: 2vw solid #fff;
   }
