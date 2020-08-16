@@ -243,7 +243,7 @@ p {
   background-position: 0px 0px;
   background-size: cover;
 }
-.projectsection.iconic2 {
+.projectsection.iconic {
   position: static;
   left: 0px;
   top: 0px;
@@ -260,14 +260,27 @@ p {
   justify-content: space-between;
   background: linear-gradient(180deg, #9ee0f2 0%, #74c9df 100%);
 }
+.projectsection.nics2 {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-image: url("../img/nicsbg.jpg");
+  background-size: cover;
+}
 
 .projectsection.simplemills {
   background-image: url("../img/simple.jpg");
-  background-position: 0px 0px;
-  background-size: cover;
-}
-.projectsection.iconic {
-  background-image: url("../img/iconic.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -325,6 +338,17 @@ p {
   margin: 0 auto;
 }
 .iconicimagewrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+  flex: 0 auto;
+  text-align: right;
+  margin: 0 auto;
+}
+.nicsimagewrap {
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -482,7 +506,14 @@ MEDIA QUERIES START HEREBELOW
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .projectsection.iconic2 {
+  .projectsection.iconic {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .projectsection.nics2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -633,9 +664,6 @@ MEDIA QUERIES START HEREBELOW
     padding-top: 10px;
   }
   .projectsection.simplemills {
-    padding-top: 10px;
-  }
-  .projectsection.iconic {
     padding-top: 10px;
   }
   .projectsection.cultivar {
