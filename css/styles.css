@@ -220,97 +220,31 @@ p {
 
 .projectsection {
   height: 100vh;
+  background-position: 0px 0px;
+  background-size: cover;
   padding: 50px;
   padding-left: 0px;
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
 }
 
 .projectsection.soulrefiner {
-  position: static;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   background-image: url("../img/soul.jpg");
-  background-position: 0px 0px;
-  background-size: cover;
 }
 .projectsection.iconic {
-  position: static;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   background: linear-gradient(180deg, #9ee0f2 0%, #74c9df 100%);
 }
 .projectsection.nics2 {
-  position: static;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   background-image: url("../img/nicsbg.jpg");
-  background-size: cover;
 }
 .projectsection.simplemills2 {
-  position: static;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   background-image: url("../img/smbg.jpg");
-  background-size: cover;
-}
-
-.projectsection.simplemills {
-  background-image: url("../img/simple.jpg");
-  background-position: 0px 0px;
-  background-size: cover;
-}
-.projectsection.cultivar {
-  background-image: url("../img/cultivar.jpg");
-  background-position: 0px 0px;
-  background-size: cover;
-}
-.projectsection.nics {
-  background-image: url("../img/nics.jpg");
-  background-position: 0px 0px;
-  background-size: cover;
 }
 
 .projectcontent {
@@ -475,24 +409,7 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.dee-position-title {
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  font-size: 1.6vw;
-  font-weight: 400;
-  letter-spacing: 0.05vw;
-}
-.dee-date {
-  font-size: 0.7vw;
-  font-weight: 700;
-  letter-spacing: 0.15vw;
-}
-.dee-small-text {
-  font-size: 0.6vw;
-  line-height: 1em;
-  font-weight: 300;
-  color: rgb(27, 26, 26);
-}
+
 .content {
   animation: fadeInLanding 1.2s ease-in-out 0s;
 }
@@ -517,28 +434,7 @@ MEDIA QUERIES START HEREBELOW
     margin-left: 41px;
   }
 
-  .projectsection.soulrefiner {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .projectsection.iconic {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .projectsection.nics2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .projectsection.simplemills2 {
+  .projectsection {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -555,15 +451,6 @@ MEDIA QUERIES START HEREBELOW
   }
   .dee-section-full {
     padding-top: 5vw;
-  }
-  .dee-date {
-    font-size: 2vw;
-  }
-  .dee-position-title {
-    font-size: 3.5vw;
-  }
-  .dee-small-text {
-    font-size: 1.3vw;
   }
 
   .dee-container {
@@ -586,9 +473,7 @@ MEDIA QUERIES START HEREBELOW
   .aboutsection {
     padding-bottom: 31px;
   }
-  .dee-small-text {
-    font-size: 2vw;
-  }
+
   .dee-container {
     max-width: 100%;
   }
@@ -601,20 +486,6 @@ MEDIA QUERIES START HEREBELOW
   .dee-section-full {
     padding: 50px 0;
     flex-direction: column;
-  }
-
-  .dee-date {
-    margin-top: 29px;
-    font-size: 13px;
-  }
-  .dee-position-title {
-    margin-top: 3vw;
-    margin-bottom: 5vw;
-    font-size: 22px;
-  }
-  .dee-small-text {
-    margin-top: 4.25vw;
-    font-size: 11px;
   }
 
   .dee-four-col {
@@ -688,15 +559,6 @@ MEDIA QUERIES START HEREBELOW
   .projectsection.soulrefiner {
     padding-top: 10px;
   }
-  .projectsection.simplemills {
-    padding-top: 10px;
-  }
-  .projectsection.cultivar {
-    padding-top: 10px;
-  }
-  .projectsection.nics {
-    padding-top: 10px;
-  }
   .soulrefinerimagewrap {
     width: 100%;
     -webkit-align-self: center;
@@ -722,12 +584,6 @@ MEDIA QUERIES START HEREBELOW
     padding-left: 0px;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-  }
-
-  .dee-date,
-  .dee-position-title {
-    font-family: Hercules, Georgia, sans-serif;
-    color: #1b1a1a;
   }
 
   .dee-flex-stretch,
@@ -760,27 +616,6 @@ MEDIA QUERIES START HEREBELOW
     align-items: center;
   }
 
-  .dee-date {
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 0.15vw;
-  }
-  .dee-position-title {
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-top: 3vw;
-    margin-bottom: 5vw;
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 0.05vw;
-  }
-  .dee-small-text {
-    margin-top: 0.25vw;
-    color: #f4f4f4;
-    font-size: 0.6vw;
-    line-height: 1em;
-    font-weight: 300;
-  }
   .dee-position {
     margin-bottom: 0;
   }

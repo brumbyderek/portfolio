@@ -69,24 +69,6 @@ p {
 .light {
   font-weight: 300;
 }
-.srtitle {
-  font-family: "Recoleta Bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 125%;
-  margin-bottom: 40px;
-  color: #ffffff;
-}
-.srtext {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: min(max(18px, 1.5vw), 24px);
-  max-width: 540px;
-  line-height: 150%;
-  color: #ffffff;
-}
 .tag {
   text-transform: uppercase;
   letter-spacing: 2px;
