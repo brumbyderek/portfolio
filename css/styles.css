@@ -278,6 +278,24 @@ p {
   background-image: url("../img/nicsbg.jpg");
   background-size: cover;
 }
+.projectsection.simplemills2 {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-image: url("../img/smbg.jpg");
+  background-size: cover;
+}
 
 .projectsection.simplemills {
   background-image: url("../img/simple.jpg");
@@ -514,6 +532,13 @@ MEDIA QUERIES START HEREBELOW
     flex-direction: column;
   }
   .projectsection.nics2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .projectsection.simplemills2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
