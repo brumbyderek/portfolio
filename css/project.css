@@ -17,7 +17,7 @@
   transform: rotate(10deg);
   width: 80vw;
   height: auto;
-  min-width: 304px;
+  min-width: 280px;
   margin-top: 120px;
   max-width: 680px;
 }
@@ -298,6 +298,7 @@
   }
   .srsvgarea {
     width: 90vw;
+    right: unset;
     position: relative;
     margin-bottom: 48px;
   }
@@ -308,6 +309,9 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .isgwrap {
+    flex-direction: column;
+  }
   .shipperwrap {
     flex-direction: column;
   }
