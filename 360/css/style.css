@@ -3,7 +3,8 @@
   padding: 2em 0;
 }
 .product-viewer img {
-  width: 100%;
+  width: auto;
+  max-height: 100vh;
 }
 .cd-product-viewer-wrapper > div {
   display: inline-block;
