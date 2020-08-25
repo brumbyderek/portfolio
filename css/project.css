@@ -339,12 +339,14 @@
     margin-bottom: 10%;
   }
   .twocolumnblock {
-    width: 96vw;
+    width: 96%;
     border: 2vw solid #fff;
+    min-width: unset;
   }
   .threecolumnblock {
-    width: 96vw;
+    width: 96%;
     border: 2vw solid #fff;
+    min-width: unset;
   }
   .menu {
     width: 100%;
