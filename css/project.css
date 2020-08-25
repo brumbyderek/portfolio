@@ -127,7 +127,7 @@
 .twocolumnblock {
   width: 50%;
   min-width: 320px;
-  height: auto;
+  height: 100%;
   object-fit: contain;
   border: 1vw solid #fff;
   margin: 0 auto;
@@ -135,7 +135,7 @@
 }
 .threecolumnblock {
   width: 33.33%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
   min-width: 320px;
   border: 1vw solid #fff;
