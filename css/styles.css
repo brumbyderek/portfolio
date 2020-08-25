@@ -438,6 +438,8 @@ MEDIA QUERIES START HEREBELOW
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    height: unset;
+    min-height: min-content;
   }
 
   .point img {
