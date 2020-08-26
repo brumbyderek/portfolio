@@ -321,18 +321,21 @@
     flex-direction: column;
   }
   .shippergrid {
-    width: 90vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .shipperheaders {
-    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
   }
   .shipperheaders img {
-    width: 100%;
+    width: 96%;
     padding: 2%;
     margin: 2% auto;
-    height: auto;
     object-fit: contain;
   }
   /* nav */
