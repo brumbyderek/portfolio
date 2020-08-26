@@ -17,8 +17,9 @@
   transform: rotate(10deg);
   width: 80vw;
   height: auto;
+  padding-top: 5%;
+  padding-bottom: 2%;
   min-width: 280px;
-  margin-top: 120px;
   max-width: 680px;
 }
 .shipperwrap {
@@ -307,7 +308,7 @@
     width: 90vw;
     right: unset;
     position: relative;
-    margin-bottom: 48px;
+    margin-bottom: 5%;
   }
   .srtextarea {
     flex: 1;
@@ -318,6 +319,7 @@
 @media screen and (max-width: 800px) {
   .isgwrap {
     flex-direction: column;
+    padding-top: 5%;
   }
   .shipperwrap {
     flex-direction: column;
