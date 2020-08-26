@@ -347,35 +347,27 @@
 }
 @keyframes menuslides {
   0% {
-    x: 1313;
-    y: 91;
+    transform: translate(1313px, 91px);
   }
   14% {
-    x: 1313;
-    y: 91;
+    transform: translate(1313px, 91px);
   }
   19% {
-    x: 1284;
-    y: -387;
+    transform: translate(1284px, -387px);
   }
   48% {
-    x: 1284;
-    y: -387;
+    transform: translate(1284px, -387px);
   }
   53% {
-    x: 1256;
-    y: -864;
+    transform: translate(1256px, -864px);
   }
   81% {
-    x: 1256;
-    y: -864;
+    transform: translate(1256px, -864px);
   }
   86% {
-    x: 1226;
-    y: -1340;
+    transform: translate(1226px, -1340px);
   }
   100% {
-    x: 1226;
-    y: -1340;
+    transform: translate(1226px, -1340px);
   }
 }
