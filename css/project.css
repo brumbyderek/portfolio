@@ -330,7 +330,8 @@
     margin-right: auto;
     width: 90%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: unset;
   }
   .shipperheaders img {
     width: 96%;
