@@ -25,6 +25,8 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: min-content;
 }
 .shippergrid {
   width: 34vw;
