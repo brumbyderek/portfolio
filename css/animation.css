@@ -235,19 +235,19 @@
 }
 @keyframes scrolling {
   0% {
-    y: 0;
+    transform: translateY(0px);
   }
   5% {
-    y: 0;
+    transform: translateY(0px);
   }
   47% {
-    y: -792;
+    transform: translateY(-792px);
   }
   53% {
-    y: -792;
+    transform: translateY(-792px);
   }
   100% {
-    y: 0;
+    transform: translateY(0px);
   }
 }
 @keyframes ship1 {
