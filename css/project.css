@@ -38,7 +38,7 @@
 .shipperheaders img {
   width: 46%;
   margin: 2%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
 }
 .srcontent {
