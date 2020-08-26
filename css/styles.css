@@ -147,7 +147,7 @@ p {
 
 .herotextwrap {
   display: inline-block;
-  width: 53vw;
+  width: 46vw;
   margin-top: 0px;
   margin-left: 88px;
   max-width: 710px;
@@ -427,7 +427,7 @@ MEDIA QUERIES START HEREBELOW
     background-size: cover;
   }
   .herotextwrap {
-    width: 500px;
+    width: 90%;
     margin-top: 61px;
     margin-left: 41px;
   }
@@ -468,7 +468,7 @@ MEDIA QUERIES START HEREBELOW
 
 @media (max-width: 767px) {
   .herotextwrap {
-    width: 400px;
+    width: 85%;
   }
   .aboutsection {
     padding-bottom: 31px;
@@ -520,7 +520,7 @@ MEDIA QUERIES START HEREBELOW
     padding-right: 0px;
   }
   .herosection {
-    border-width: 40px 30px 30px;
+    border-width: 40px 0px 0px;
   }
   .headerlink {
     margin-right: 19px;
@@ -531,9 +531,10 @@ MEDIA QUERIES START HEREBELOW
     text-align: center;
   }
   .herotextwrap {
-    width: 230px;
-    margin-top: 30px;
-    margin-left: 25px;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .aboutsection {
     margin-right: 0px;
