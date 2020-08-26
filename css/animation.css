@@ -86,14 +86,17 @@
   }
 }
 @keyframes episodescroll {
+  0% {
+    transform: translate(-0px, 0px);
+  }
   20% {
-    x: 0px;
+    transform: translate(-0px, 0px);
   }
   50% {
-    x: -2800px;
+    transform: translate(-2800px, 0px);
   }
   100% {
-    x: -2800px;
+    transform: translate(-2800px, 0px);
   }
 }
 @keyframes episodesfade {
