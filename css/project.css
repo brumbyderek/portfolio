@@ -69,7 +69,7 @@
   position: absolute;
   right: 30px;
   width: 600px;
-  height: auto;
+  height: min-content;
 }
 .srtextarea {
   flex: 1;
@@ -301,6 +301,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .srwrapper {
+    height: min-content;
+  }
   .srcontent {
     flex-direction: column;
   }
