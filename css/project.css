@@ -1,5 +1,111 @@
 /********** CASE STUDY **********/
+/***** More section *****/
+.moreimgwrap {
+  max-width: 100%;
+  display: inline-block;
+}
 
+.more-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  text-align: center;
+}
+
+.moreitem {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.morewrapper {
+  display: flex;
+  width: 100%;
+}
+.moreitem {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.moreimg {
+  height: 230px;
+  width: 100%;
+  margin-right: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.moreitem {
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.moreitem:hover {
+  z-index: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.morelist {
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+.moredescwrap {
+  padding: 10px;
+}
+
+.more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .more-container {
+    max-width: 728px;
+  }
+
+  .moreitem {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .more-container .morewrapper,
+  .morewrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .morewrapper {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .moreitem {
+    width: 100%;
+    left: auto;
+    right: auto;
+  }
+  .w-nav-brand {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .more-container {
+    max-width: none;
+  }
+
+  .moreitem {
+    width: 100%;
+  }
+}
 /***** Intro section *****/
 .sectiondesc {
   max-width: 800px;
