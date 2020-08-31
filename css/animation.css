@@ -55,6 +55,21 @@
 #ship7 {
   animation: ship7 30s ease infinite;
 }
+#mod1 {
+  animation: mod1 35s ease infinite;
+}
+#mod2 {
+  animation: mod2 35s ease infinite;
+}
+#mod3 {
+  animation: mod3 35s ease infinite;
+}
+#mod4 {
+  animation: mod4 35s ease infinite;
+}
+#mod6 {
+  animation: mod6 35s ease infinite;
+}
 /* It go bouncy bounce */
 @keyframes upDown {
   from {
@@ -369,5 +384,72 @@
   }
   100% {
     transform: translate(1226px, -1340px);
+  }
+}
+@keyframes mod1 {
+  0% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mod2 {
+  0% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes mod3 {
+  0% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  61% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes mod4 {
+  0% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  81% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes mod6 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
