@@ -154,22 +154,24 @@ p {
 }
 
 .aboutsection {
-  margin-right: 45px;
+  margin-right: auto;
   margin-bottom: 45px;
-  margin-left: 45px;
+  margin-left: auto;
   padding-top: 57px;
   padding-bottom: 57px;
   background: linear-gradient(180deg, #eeede5 0%, #b9cad5 100%);
   min-height: 100vh;
+  width: 95%;
   display: flex;
   align-items: center;
 }
 .skillssection {
-  margin-right: 45px;
+  margin-right: auto;
   margin-bottom: 45px;
-  margin-left: 45px;
+  margin-left: auto;
   padding-top: 57px;
   padding-bottom: 57px;
+  width: 95%;
   background: linear-gradient(180deg, #eeede5 0%, #b9cad5 100%);
   display: flex;
   align-items: center;
