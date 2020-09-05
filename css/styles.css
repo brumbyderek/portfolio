@@ -1,8 +1,5 @@
 html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
   height: 100%;
 }
@@ -25,8 +22,6 @@ a {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -44,16 +39,12 @@ p {
 .body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
 }
 
 .herosection {
   position: relative;
   display: flex;
   height: 100vh;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   border: 45px solid #fff;
   background-image: url("../img/derek.jpg");
@@ -73,20 +64,12 @@ p {
 }
 .threecolumngrid {
   display: grid;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
   align-items: stretch;
   grid-auto-columns: 1fr;
   grid-column-gap: 3.5vw;
   grid-row-gap: 3.5vw;
-  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto;
   grid-template-rows: auto;
   text-align: center;
   width: 90%;
@@ -96,9 +79,6 @@ p {
   position: relative;
   display: flex;
   height: auto;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   border-top: 45px solid #fff;
   background-position: 50% 50%;
@@ -118,7 +98,6 @@ p {
 .headerlink {
   margin-left: 55px;
   border-bottom: 1px solid #fff;
-  -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   color: #09076c;
   font-size: 16px;
@@ -166,33 +145,19 @@ p {
   align-items: center;
 }
 .skillssection {
-  margin-right: auto;
+  margin-right: 45px;
   margin-bottom: 45px;
-  margin-left: auto;
+  margin-left: 45px;
   padding-top: 57px;
   padding-bottom: 57px;
-  width: 95%;
   background: linear-gradient(180deg, #eeede5 0%, #b9cad5 100%);
   display: flex;
   align-items: center;
 }
 .flex-vertical-center-top {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 .buttonstyle {
@@ -318,9 +283,6 @@ p {
   display: block;
   height: auto;
   max-height: 100%;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
   flex: 0 auto;
 }
 
@@ -364,7 +326,6 @@ p {
 
 .dee-section-full {
   display: block;
-  -webkit-box-align: start;
   align-items: flex-start;
 }
 .dee-container {
@@ -372,7 +333,6 @@ p {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
-  -webkit-box-align: start;
   align-items: flex-start;
 }
 .dee-two-col {
@@ -382,23 +342,21 @@ p {
   padding-bottom: 0px;
   padding-left: 2.08vw;
   flex-direction: column;
-  -webkit-box-align: start;
   align-items: flex-start;
 }
 .dee-horizontal-line {
   height: 2px;
   margin-top: 0px;
   margin-left: 1vw;
-  -webkit-box-flex: 1;
   background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 97.06%);
   opacity: 0.5;
   flex: 1 1 0%;
 }
 .dee-four-col {
   position: static;
-  width: 76.6672vw;
-  padding-right: 2.08vw;
-  padding-left: 2.08vw;
+  width: 76vw;
+  padding-right: 2vw;
+  padding-left: 2 vw;
 }
 .dee-flex-stretch {
   display: flex;
@@ -420,9 +378,6 @@ MEDIA QUERIES START HEREBELOW
 
 @media (max-width: 991px) {
   .herosection {
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
     align-items: flex-start;
     background-image: url("../img/derek-m.jpg");
     background-position: 50% 50%;
@@ -435,10 +390,6 @@ MEDIA QUERIES START HEREBELOW
   }
 
   .projectsection {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
     height: unset;
     min-height: min-content;
@@ -457,8 +408,6 @@ MEDIA QUERIES START HEREBELOW
 
   .dee-container {
     max-width: 100%;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
@@ -502,20 +451,12 @@ MEDIA QUERIES START HEREBELOW
 
 @media screen and (max-width: 479px) {
   .flex-vertical-center-top {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
   }
   .threecolumngrid {
     margin-top: 40px;
     grid-row-gap: 6vw;
-    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
   .linkpadding {
@@ -564,9 +505,6 @@ MEDIA QUERIES START HEREBELOW
   }
   .soulrefinerimagewrap {
     width: 100%;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
     align-self: center;
   }
   .footer {
@@ -585,8 +523,6 @@ MEDIA QUERIES START HEREBELOW
   }
   .dee-section-full {
     padding-left: 0px;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
   }
 
   .dee-flex-stretch,
@@ -594,9 +530,6 @@ MEDIA QUERIES START HEREBELOW
     height: 2px;
     margin-top: 0;
     margin-left: 1vw;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     background: linear-gradient(
       90deg,
@@ -607,15 +540,9 @@ MEDIA QUERIES START HEREBELOW
   .dee-flex-stretch {
     display: flex;
     margin-bottom: 3vw;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
     align-items: flex-start;
   }
   .dee-flex-stretch.dee-center-aligned {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -623,53 +550,33 @@ MEDIA QUERIES START HEREBELOW
     margin-bottom: 0;
   }
 
-  .blog-list,
-  .dee-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-  }
-
   .dee-container {
     display: flex;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
   }
   .one-col,
   .dee-two-col {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
   }
 
   .dee-four-col {
     position: static;
-    width: 76.66720000000001vw;
-    padding-right: 2.08vw;
-    padding-left: 2.08vw;
+    width: 76vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
   }
 
   .dee-two-col {
     display: flex;
     width: 100%;
-    padding-right: 2.08vw;
+    padding-right: 2vw;
     padding-bottom: 0;
-    padding-left: 2.08vw;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
+    padding-left: 2vw;
     flex-direction: column;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
     align-items: flex-start;
   }
 
