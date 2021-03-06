@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Recoleta";
+    font-family: "Recoleta Bold";
     src: url("https://brumbyvisuals.github.io/portfolio/fonts/Recoleta-Bold.woff2") format('woff2');
     font-weight: 700;
     font-style: normal;
   }
 @font-face {
-    font-family: "Recoleta";
+    font-family: "Recoleta Semibold";
     src: url("https://brumbyvisuals.github.io/portfolio/fonts/Recoleta-SemiBold.woff2") format('woff2');
     font-weight: 600;
     font-style: normal;
